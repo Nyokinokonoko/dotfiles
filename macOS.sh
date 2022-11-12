@@ -1,4 +1,6 @@
-# Content collected across the internet, some maybe outdated for OSX 11. (Kenny)
+# 2022/11/12: Updated for macOS Ventura (13)
+
+# Content collected across the internet.
 # Script contains basic settings for macOS and installation of CommandLineTools
 # This will also install Git and Homebrew
 
@@ -7,9 +9,6 @@ osascript -e 'tell application "System Preferences" to quit'
 
 # Init. sudo session (ask for admin password)
 sudo -v
-
-# Set computer name
-sudo scutil --set ComputerName "MacbookPro-Uchimaki"
 
 # Always expand save panel
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
